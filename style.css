@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 900px;
+    margin: 0;
+}
+
+.button {
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    gap: 1px;
+}
+
+.square{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.1s;
+}
