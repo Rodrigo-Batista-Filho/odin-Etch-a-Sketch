@@ -3,8 +3,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: bisque;
-    height: 900px;
+    height: 100vh;
     margin: 0;
+    flex-direction: column;
 }
 
 .button {
